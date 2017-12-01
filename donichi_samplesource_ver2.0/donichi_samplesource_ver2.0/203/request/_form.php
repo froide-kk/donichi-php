@@ -1,7 +1,7 @@
 <?php echo Form::open(array("class"=>"form-horizontal")); ?>
 
 	<fieldset>
-		<div class="form=group">
+		<div class="form-group">
 			<?php echo Form::hidden(Config::get('security.csrf_token_key'),Security::fetch_token()); ?>
 		</div>
 		<div class="form-group">
